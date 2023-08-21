@@ -12,7 +12,7 @@ export function SignInButton () {
             >
                
             <FaGithub color="#04d361"/>
-            Danio Fernandes
+            Danio Barbosa
             <FiX color="#737380" className={styles.closeIcon} />
         </button>
     ) : (
