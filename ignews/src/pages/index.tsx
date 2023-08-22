@@ -45,7 +45,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
         amount: new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'USD'
-        }).format(price.unit_amount.amount / 100),
+        }).format(price.unit_amount!/ 100),
     }
     return {
         props: {
