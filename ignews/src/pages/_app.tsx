@@ -6,8 +6,8 @@ import { Header } from '@/components/Header';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-    <Header />  
-    <Component {...pageProps} />
+      <Header />
+      <Component {...pageProps} />
     </>
   )
 }
